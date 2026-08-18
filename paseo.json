@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": {
+      "command": "xcodebuild clean build -project BLEUnlock.xcodeproj -scheme BLEUnlock"
+    },
+    "device-names": {
+      "command": "./apple-device-names"
+    },
+    "release": {
+      "command": "./release"
+    }
+  }
+}
